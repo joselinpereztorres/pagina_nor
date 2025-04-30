@@ -811,13 +811,19 @@ sucursales */
 
     .footer-right {
         padding-right: 2rem;
+        align-self: start;
+        padding-top: 10px;
 
+    }
+
+    .footer-right p{
+        padding-bottom: 7px;
     }
 
     .footer-left {
         padding-left: 2rem;
-
         align-self: start;
+
     }
 
 }
