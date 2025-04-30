@@ -658,12 +658,15 @@ sucursales */
     }
 
     .secciones i {
-        font-size: 40px;
+        font-size: 35px;
+        margin-bottom: 0.5rem;
     }
 
     .secciones .texto-principal {
         width: 60%;
     }
+
+
 
     /* 
 sucursales */
