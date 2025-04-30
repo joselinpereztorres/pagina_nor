@@ -20,13 +20,13 @@ li{
 }
 header{
     width: 100%;
-    height:17vh;
+    height:12rem;
     padding: 1.5rem 8rem;
     position:sticky; 
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .top-header{
@@ -99,7 +99,7 @@ header{
 
 /*carrusel*/
 .carrusel{
-    height: 83vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -195,9 +195,16 @@ header{
     align-items: center;
     position: absolute;
     gap: 2rem;
-    top: 10%;
+    top: 0%;
     left: 0%;
-    translate:(-50%, -50%)
+    right:0%;
+    bottom: 50%;
+    translate:(-90%, -50%)
+}
+
+.informacion .presentacion .texto-principal{
+    padding: 0rem 20rem;
+
 }
 .titulo-principal{
     font-size: 3.6rem;
@@ -206,7 +213,6 @@ header{
 
 .texto-principal{
     font-size: 1.5rem;
-    width: 50%;
     text-align: center;
 }
 .btn{
@@ -223,7 +229,7 @@ header{
 /*presentacion dobleee*/
 .presentacion-doble{
     width: 100%;
-    height: 90vh;
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -231,7 +237,7 @@ header{
 
 .doble{
     width: 49.5%;
-    height: 100%;
+
 }
 
 .presentacion .texto-principal{
@@ -270,7 +276,7 @@ header{
 @media (max-width: 780px) {
     header{
         padding:  1.5rem 0rem;
-        height: 13vh;
+        height: 10rem;
     }
     .top-header{
         justify-content:space-evenly;
@@ -282,7 +288,7 @@ header{
     .menu i{
         visibility: visible;
     }
-
+    
     .nav-bar {
         display: none; /* Siempre visible */
         margin-top: 1rem;
@@ -322,6 +328,9 @@ header{
 
     }
      /*presentacion-producto*/
+     .informacion .presentacion .texto-principal{
+        padding: 0rem 5rem;
+    }
      .nosotros .texto-principal{
         width: inherit;
        font-size: 1.6rem;
@@ -349,16 +358,23 @@ header{
 }
 
 
-  /*tamaño de celulares----------------------------------------*/
+  /*tamaño de celulares----------------------------------------------------------------------------------------------------*/
 @media (max-width: 480px) {
-    .header{
+    /* .header{
 
-    }
+    } */
+     .titulo-principal{
+        font-size: 2.5rem;
+     }
+     .texto-principal{
+        font-size: 1.4;
+     }
     .top-header{
-
         border-bottom: 3px solid rgba(0, 0, 0, 0.123);
     }
-      
+    .carrusel-texto p{
+        font-size: 1.4rem;
+    }
    .atajos a{
     margin-left: 3rem;
    }
@@ -390,9 +406,14 @@ header{
     
     .doble{
         width: 100%;
+ 
     }
 
     /*presentacion-producto*/
+    .informacion .presentacion .texto-principal{
+        padding: 0rem 1.5rem;
+    
+    }
     .nosotros .texto-principal{
         width: inherit;
        font-size: 1.4rem;
