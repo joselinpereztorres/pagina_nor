@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ubicacion.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="top-header">
+            <div class="menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo_nork.svg" alt="" />
+                </a>
+            </div>
+
+            <div class="atajos">
+    
+                <a href="contactanos.html"> <i class="bi bi-envelope-fill"></i></a>
+
+                <a href=""> <i class="bi bi-telephone-fill"></i></a>
+
+                <a href="ubicacion.html">
+                    <i class="bi bi-geo-alt-fill"></i>
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="enlaces">
+                <div class="nav-cerrar">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+
+                <li>
+                    <a href="#">Estandar</a>
+                </li>
+                <li>
+                    <a href="#">Premium</a>
+                </li>
+                <li>
+                    <a href="#">Pro</a>
+                </li>
+                <li>
+                    <a href="#">Acrilicos</a>
+                </li>
+                <li>
+                    <a href="#">Complemento</a>
+                </li>
+                <li>
+                    <a href="#">Garden & Bridges</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="enlaces-bottom">
+            <ul class="enlaces-lineas">
+                <li>
+                    <a href="#">Estandar</a>
+                </li>
+                <li>
+                    <a href="#">Premium</a>
+                </li>
+                <li>
+                    <a href="#">Pro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo-principal titulo-ubicacion">Ubicaciones</h1>
+
+    <div class="ubicaciones">
+        <div class="ubicacion-informes">
+            <div class="informacion-buscar">
+                <p>Encuentra tu sucursal mas cercana</p>
+
+                <select class="select-ubicacion" id="ubicacion">
+                    <option disabled selected>Selecciona la sucursal</option>
+                    <option value="0">Puebla</option>
+                    <option value="1">Toluca</option>
+                    <option value="2">Apizaco</option>
+                    <option value="3">Planta</option>
+                </select>
+                
+            </div>
+
+            <div class="informacion-encontrada">
+                <p class="sucursal texto-principal">Impermeabilizantes Norkply Puebla</p>
+                <ul>
+                    <li ><i class="bi bi-geo-alt-fill"></i>
+                    <p class="texto-principal direccion">C. 35 Sur 2703, Sta Cruz los Ángeles, 72000 Heroica Puebla de Zaragoza, Pue.</p></li>
+
+                    <li ><i class="bi bi-clock"></i><p class="texto-principal horario">Lunes a Sabado - 8:00 am a 6:00 pm</p></li>
+
+                    <li ><i class="bi bi-telephone-fill"></i><a href="tel:+52229018722" class="texto-principal telefono">222 778 8391</a></li>
+
+                    <li ><i class="bi bi-telephone-fill"></i><a href="tel:+529998887766" class="texto-principal celular">222 778 8391</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="ubicacion-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.6888987848065!2d-98.23197296348053!3d19.047120008842423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc728c2349487%3A0xe0ce1b706eedb27b!2sImpermeabilizantes%20Norkply%20Puebla!5e0!3m2!1ses!2smx!4v1746324449186!5m2!1ses!2smx" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+        </div>
+    </div>
+
+    <script src="js/ubicacion.js"></script>
+</body>
+
+</html>

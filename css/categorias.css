@@ -1,0 +1,86 @@
+.presentacion-productos{
+    width: 100%;
+    height: 90vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.presentacion-productos img{
+   height: 100%; 
+   width: 100%;
+   object-fit: cover;
+}
+
+.presentacion-productos .presentacion-texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+}
+.presentacion-productos  .presentacion-texto .texto-principal{
+    font-size: 3rem;
+}
+
+.presentacion-productos .presentacion-productos .titulo-principal{
+    text-transform: capitalize;
+    letter-spacing: 2rem;
+    font-size: 5.5rem;
+}
+
+/*productos*/
+.productos{
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.productos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.presentacion-texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20%;
+    position: absolute;
+    gap: 2rem;
+    top: 10%;
+}
+.presentacion-botones{
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 780px) {
+
+    .presentacion-texto{
+        margin: 0 5%;
+        position: absolute;
+        gap: 1.5rem;
+        top: 5%;
+    }
+    .presentacion-botones{
+        display: flex;
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .presentacion-botones .btn {
+        width: 14rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.3rem;
+    }
+}

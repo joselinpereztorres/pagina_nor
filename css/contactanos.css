@@ -1,0 +1,86 @@
+.formulario-contacto {
+    background-color: #f4eeee;
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario .titulo-principal{
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .formulario {
+    background-color: #ddd;
+    padding:  4rem;
+    border-radius: 1.2rem;
+    max-width: 600px;
+    width: 100%;
+    
+  }
+  
+  .fila {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .fila input {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+  }
+  
+  .fila-mensaje textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    resize: none;
+    font-size: 1.2rem;
+  }
+  .formulario-enviar button{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    letter-spacing: 0.7rem;
+
+  }
+  
+
+  @media (max-width: 780px) {
+    .formulario {
+        margin: 2rem;
+      }
+      .formulario-contacto {
+       
+        padding: 1rem 5rem;
+       
+      }
+    
+   
+}
+
+@media (max-width: 480px) {
+    .formulario {
+        padding: 4rem 1rem;
+      }
+      .formulario-contacto {
+        background-color: #f4eeee;
+        padding:  3rem 1rem;
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+      }
+    
+   
+}
