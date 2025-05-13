@@ -61,7 +61,7 @@ const sucursales=[
         horario:'Lunes a Sabado - 8:00 am a 6:00 pm',
         telefono:'222 888 9999',
         celular: '999 777 8978',
-        mapa:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.9842355917012!2d-99.65234982569325!3d19.283051745441487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd89915f5c8445%3A0xfff0c5131b4b89a3!2sImpermeabilizantes%20Norkply%20Toluca!5e0!3m2!1ses-419!2smx!4v1746562602563!5m2!1ses-419!2smx'
+        mapa:'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15825.749505475735!2d-99.48796130905754!3d19.17605433554525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdf310a237ffc1%3A0x816371009ca44550!2sGrupo%20Nork%20Internacional%20S.A.%20de%20C.V.!5e0!3m2!1ses-419!2smx!4v1746565891318!5m2!1ses-419!2smx'
 
     }
 ]

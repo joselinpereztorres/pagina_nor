@@ -9,7 +9,21 @@ header {
     z-index: 9999;
     background-color: rgb(255, 255, 255);
 }
+.titulo-principal {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
 
+.texto-principal  {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+img{
+    opacity: 90%;
+}
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -146,7 +160,6 @@ header {
     font-size: 1.6rem;
 
     text-align: center;
-    color: white;
     font-weight: 500;
 }
 
@@ -205,15 +218,6 @@ header {
 
 }
 
-.titulo-principal {
-    font-size: 3.6rem;
-    text-transform: uppercase;
-}
-
-.texto-principal {
-    font-size: 1.5rem;
-    text-align: center;
-}
 
 
 /*presentacion dobleee*/
@@ -379,6 +383,7 @@ sucursales */
     top: 45%;
     font-weight: 600;
     letter-spacing: 1.5rem;
+    color: white;
 
 }
 
@@ -560,9 +565,6 @@ sucursales */
         margin: 5rem 0 -5rem;
     }
 
-     .secciones-sucursales{
-        background-color: #2e4997;
-    }
     .sec-sucursal {
         
         max-width: 25rem;
