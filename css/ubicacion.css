@@ -1,3 +1,4 @@
+
 .select-ubicacion {
     width: 100%;
     max-width: 40rem;
@@ -35,15 +36,17 @@
 }
 
 .titulo-ubicacion {
-    background-color: #ececec;
-    padding: 0.4rem 0;
+    background-color: var(--azulPrimario);
+    padding: 1rem 0;
     text-align: center;
     letter-spacing: 1rem;
-
+    color: var(--blanco);
 }
 
 .ubicaciones {
     display: flex;
+    width: 100%;
+    min-height: 80dvh;
 }
 
 .ubicacion-informes {
@@ -52,6 +55,8 @@
     display: flex;
     flex-direction: column;
     padding: 3% 5%;
+    justify-content: center;
+    align-items: center;
 
 }
 

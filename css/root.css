@@ -12,6 +12,7 @@
     --azulPrimario: #2e4997;
     --negro: black;
     --blanco: white;
+    --blancoGris: #ebebeb;
 }
 
 a {
@@ -41,6 +42,10 @@ li {
     text-align: center;
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: var(--blancoGris) ;
+    color: var(--negro);
 }
 
 @media (max-width: 780px) {
