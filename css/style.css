@@ -53,7 +53,7 @@ header {
     flex: 1;
     display: flex;
     gap: 5rem;
-    justify-content: end 
+    justify-content: end
 }
 
 .atajos a {
@@ -402,20 +402,25 @@ sucursales */
 /*footer*/
 footer {
     width: 100%;
-    height: 30rem;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+
+.footer-contenedor {
+    margin-bottom: 5rem;
+    display: flex;
+    width: 100%;
     align-items: center;
-    padding: 3%;
+    justify-content: space-evenly;
 }
 
-footer ul li a {
-    line-height: 4rem;
+.footer-secciones ul li {
+    margin: 1.2rem;
+}
+
+.footer-secciones ul li:first-child {
     font-weight: bold;
-}
-
-.footer-left {
-    width: 30%;
 }
 
 .footer-logo {
@@ -444,18 +449,27 @@ footer ul li a {
     font-size: 2.7rem;
 }
 
-.footer-right {
-    text-align: end;
-    width: 30%;
+.footer-bajo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.footer-right p {
-    text-align: end;
-    font-weight: bold;
+.footer-bajo ul {
+    display: flex;
 }
 
-.footer-right li a {
-    font-weight: normal;
+.footer-bajo ul li {
+    padding: 0 2rem;
+    border-right: 1px solid rgb(136, 136, 136);
+}
+
+.footer-bajo ul li:last-child {
+    border: none;
+}
+
+.footer-bajo .texto-principal {
+    font-size: 1rem;
 }
 
 /*tamaño de tablets---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -492,7 +506,7 @@ footer ul li a {
         border-top: 1px solid #ddd;
         z-index: 1000;
     }
- 
+
 
     .nav-cerrar {
         z-index: 999;
@@ -529,7 +543,8 @@ footer ul li a {
         padding-left: 2rem;
 
     }
-    .enlaces li{
+
+    .enlaces li {
         border: 1px solid beige;
         padding: 3.5dvh 0;
         text-align: left;
@@ -600,60 +615,42 @@ sucursales */
     }
 
     /*footer*/
+
     footer {
-        width: 100%;
-        height: 35rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-contenedor {
+        flex-wrap: wrap;
+
 
     }
 
-    .footer-left {
-        /*lefttttttttttttt*/
-        grid-column: 1/2;
-        grid-row: 2/3;
-        padding-left: 20%;
-        width: inherit;
-
+    .footer-secciones {
+        width: 30%;
     }
 
     .footer-logo {
-        /*logoooooooooooooo*/
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        width: inherit;
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .footer-logo img {
+        height: 4rem;
     }
 
     .footer-logo .logo-redes {
         display: flex;
-        width: 40rem;
-        padding: 1rem 7rem;
+        width: 30rem;
+        padding: 1rem 5rem;
         justify-content: space-evenly;
         align-items: center;
         border-top: 2px solid var(--negro);
     }
 
-
-    .footer-right {
-        /*righttttttttttt*/
-        text-align: end;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        padding-right: 20%;
-        width: inherit;
-
-    }
-
-    .footer-right p {
-        text-align: end;
-        font-weight: bold;
-    }
-
-    .footer-right li a {
-        font-weight: normal;
+    .logo-redes a i {
+        font-size: 2.5rem;
     }
 }
 
@@ -666,8 +663,14 @@ sucursales */
     }
 
     .atajos {
-        gap: 1rem;
-    }
+
+    gap: 1rem;
+    justify-content: inherit;
+}
+
+.atajos a {
+    margin-left: 0em;
+}
 
     .titulo-principal {
         font-size: 2.5rem;
@@ -799,8 +802,36 @@ sucursales */
     }
 
     /*footer*/
+    footer{
+        margin: 1rem 0;
+        justify-content: inherit;
+    }
+    .footer-contenedor{
+        margin-bottom: inherit;
+    }
+ 
+    .footer-secciones{
+        width: 45%;
+        margin-bottom: 3rem;
+    }
+
+    .footer-secciones ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-secciones ul li{
+        margin: 0.5rem;
+    }
     .footer-logo img {
         height: 4rem;
+    }
+
+    .footer-logo{
+        order: -1;
+        margin: 3rem 0;
     }
 
     .footer-logo i {
@@ -813,29 +844,15 @@ sucursales */
         padding: 1rem 3rem;
     }
 
-    .footer-right {
-        padding-right: 2rem;
-        align-self: start;
-        padding-top: 10px;
-
+    .footer-bajo{
+        display: flex;
+ 
+        flex-direction: column;
     }
 
-    .footer-right p {
-        padding-bottom: 9px;
-    }
-
-    .footer-left {
-        padding-left: 2rem;
-        align-self: start;
-
-    }
-
-    .footer-right ul a {
-        line-height: normal;
-    }
-
-    .footer-right ul li {
-        margin-bottom: 1.8rem;
+    .footer-bajo ul {
+        order: -1;
+        margin-bottom: 2rem;
     }
 
 
