@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 90dvh;
+    min-height: 70dvh;
   }
 
   .formulario .titulo-principal{
@@ -18,9 +18,8 @@
     background-color: #ddd;
     padding:  4rem;
     border-radius: 1.2rem;
-    max-width: 600px;
-    width: 100%;
-    
+    max-width: 800px;
+    width: 100%;    
   }
   
   .fila {

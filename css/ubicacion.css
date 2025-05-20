@@ -46,24 +46,26 @@
 .ubicaciones {
     display: flex;
     width: 100%;
-    min-height: 80dvh;
+    min-height: 70dvh;
+    background-color: var(--blancoGris);
 }
 
 .ubicacion-informes {
-
     width: 40%;
+
     display: flex;
     flex-direction: column;
-    padding: 3% 5%;
+    padding: 3% 8%;
     justify-content: center;
     align-items: center;
-
 }
 
 .informacion-buscar {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+
 }
 
 .informacion-buscar p {
@@ -75,13 +77,22 @@
 
 }
 
+.informacion-encontrada{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
 .informacion-encontrada .texto-principal {
     text-align: left;
+    padding-left: 5%;
 }
 .informacion-encontrada .sucursal{
     font-weight: 600;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 .informacion-encontrada i {
@@ -92,7 +103,7 @@
 
 .informacion-encontrada ul li {
     display: flex;
-    margin: 1rem 0;
+    margin: 4%;
 }
 
 
@@ -101,7 +112,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2% 5%;
+    padding: 2% 4% 2% 0 ;
+
+}
+
+.ubicacion-mapa iframe{
+    width: 100%;
+    min-height: 70dvh ;
 }
 
 
