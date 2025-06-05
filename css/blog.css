@@ -1,0 +1,146 @@
+
+.blog__principal {
+    width: 100%;
+    height: 40dvh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.blog__principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog__texto {
+    position: absolute;
+    top: 40%;
+    width: 40rem;
+    left: 50%;
+    transform: translate(-50%, -40%);
+ 
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: center;
+    gap: 3.5rem;
+    max-width: 1068px;
+    margin: auto;
+    width: 85%;
+    margin-top: 3rem;
+
+}
+
+.blog__contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.blog__contenido img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog__categoria {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--azulPrimario);
+}
+
+.blog__contenido .titulo-principal {
+    text-transform: none;
+    font-size: 3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blog__fecha {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.blog__contenido .texto-principal {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+}
+
+.blog__leer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog__leer a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blog__leer i {
+    font-size: 1.6rem;
+}
+
+.blog__leer a:hover {
+    border-bottom: 2px solid gray;
+}
+
+.blog__acciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 4rem;
+    flex-direction: column;
+}
+.blog__acciones .btn{ 
+    width: 30rem;
+    border: none;
+    border-radius: inherit;
+}
+.blog__selector #paginacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 2rem;
+    margin-top: 1rem;
+}
+#paginacion li{
+    font-size: 2rem;
+     display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+ #paginacion li i{
+     font-size: 1.6rem;
+     font-weight: 600;
+ }
+
+@media (max-width: 780px) {
+
+
+}
+ 
+@media (max-width: 480px) {
+     .blog__contenido .titulo-principal {
+        font-size: 2.5rem;
+    }
+
+    .texto-principal {
+        font-size: 1.3rem;
+    }
+}
